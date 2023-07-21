@@ -21,6 +21,12 @@ var ball = {
     dy:3
 }
 
+function preload()
+{
+  ball_touch_padel = loadSound("ball_touch_padel.wav");
+  missed = loadSound("missed.wav");
+}
+
 function setup(){
   var canvas =  createCanvas(700,600);
 }
